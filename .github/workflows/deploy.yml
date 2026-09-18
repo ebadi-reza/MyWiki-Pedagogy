@@ -7,7 +7,12 @@ name: Deploy wiki to GitHub Pages (Quartz)
 
 on:
   push:
-    branches: [main]
+    branches: [main] # merging/pushing to main builds AND publishes
+    paths:
+      - "wiki/**"
+      - ".github/workflows/deploy.yml"
+  pull_request:
+    branches: [main] # PRs get a build-check only (validates, does NOT publish)
     paths:
       - "wiki/**"
       - ".github/workflows/deploy.yml"
@@ -85,17 +90,22 @@ jobs:
           npm ci
           npx quartz build
 
+      # --- publish steps: only on a push to main, never on a pull-request check ---
       - name: Configure Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Upload site artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: quartz/public
 
   deploy:
+    # Skipped entirely on pull requests — only a push to main publishes.
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
