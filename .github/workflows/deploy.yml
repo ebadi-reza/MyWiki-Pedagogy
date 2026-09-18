@@ -54,11 +54,15 @@ jobs:
             exit 1
           fi
 
-      - name: Point Quartz at this GitHub Pages URL
+      - name: Configure Quartz (baseUrl + site title)
         run: |
           cd quartz
           # Project pages are served from a sub-path, so baseUrl needs the repo name.
           sed -i 's|baseUrl: ".*"|baseUrl: "ebadi-reza.github.io/MyWiki-Pedagogy"|' quartz.config.ts
+          # Site title shown top-left (mirrors the sibling turbulence wiki's style).
+          sed -i 's|pageTitle: ".*"|pageTitle: "Reza Ebadi · Engineering Education \& Pedagogy"|' quartz.config.ts
+          echo "----- resulting config (title/baseUrl) -----"
+          grep -E 'pageTitle|baseUrl' quartz.config.ts
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -73,6 +77,8 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
