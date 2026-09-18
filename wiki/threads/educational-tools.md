@@ -21,7 +21,7 @@ platforms for the [[ai-pedagogy]] research program. Primarily instruments of
   **GPT-4o** system with tool + retrieval augmentation and PyroMat-backed property
   calculations for 20+ working fluids. [VALIDATED] **95%** accuracy on a 20-question
   benchmark vs. 15–25% for public LLMs ([[gpthermo-accuracy]]); **19 verified users** at
-  institutions beyond WPI. Built on a $16.5k MTLC grant after two unfunded NSF proposals
+  institutions beyond WPI. Built on an MTLC grant after two unfunded NSF proposals
   on the same theme; maintained after the grant.
 - **[[studyguideai]]** — student-facing platform (studyguideai.app): upload course
   material → generated quizzes, summaries, and flashcards. [VALIDATED] 73 users. Its

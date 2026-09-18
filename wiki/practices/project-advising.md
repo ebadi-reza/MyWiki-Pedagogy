@@ -27,7 +27,7 @@ students)**. Highlights (team, member, and sponsor names omitted by policy):
 - An interdisciplinary project (AY22–23) spanned **four engineering departments (MME,
   RBE, CS, ECE)** with 10 students.
 - Advised the **SAE Aero Design** project for four consecutive years; teams raised
-  **$10k+ annually** and received MASGC travel grants.
+  **\$10k+ annually** and received MASGC travel grants.
 - An MQP partnering with a Doctor of Physical Therapy designed an MS assistive device
   that **won best design award at the CMSC conference**.
 - Two MQPs earned **honorable mention at the WPI Project Showcase**; another (a

@@ -34,8 +34,9 @@ Confirmations resolved from the CV:
 - **CMSC = Consortium of Multiple Sclerosis Centers** (2024 best-design award).
 - **stEm PEER Academy = 2025–2026**, hosted by the Silevitch/Duggan Center for STEM
   Education. See [[stem-peer-academy]].
-- Funded **internal** grants total **$41,140** (see the ledger in
-  [[scholarship-and-dissemination]]); no external grants funded to date.
+- Several funded **internal** grants (see the ledger in
+  [[scholarship-and-dissemination]]); no external grants funded to date. *(Dollar amounts
+  are omitted from the wiki by policy.)*
 
 ## Deliberately excluded from the public wiki
 Applying the Publication rules (`CLAUDE.md`) and the standing policy:

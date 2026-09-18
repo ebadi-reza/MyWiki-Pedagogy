@@ -60,27 +60,27 @@ not listed here.)*
   and Manufacturing Engineering" (with a co-author).
 
 ## Grant ledger
-Figures shown **only** for funded internal grants; pending/unfunded amounts are omitted
-by policy and proposals recorded neutrally (agency, role, status, theme). See [[cv]].
+Dollar amounts are omitted throughout by policy; proposals are recorded neutrally
+(program, role, status, theme). See [[cv]].
 
-### Funded — internal (WPI), total **$41,140** [VALIDATED — funded]
-| Year | Program | Role | Amount | Project |
-|---|---|---|---|---|
-| 2024 | Teaching Innovation Grant | PI | $16,500 | [[gpthermo]] |
-| 2023 | Teaching Innovation Grant | PI (with a Co-PI) | $13,040 | Lab on Cart flow-viz ([[2024-ebadi-asee]]) |
-| 2025 | Summer Sandbox Grant | PI | $5,600 | March CADness (CAD competition, 30+ students) |
-| 2025 | Women's Impact Network (WIN) | PI | $3,000 | Wings of Opportunity (women in SAE) |
-| 2024 | EMPOwER Grant | PI | $3,000 | OER for CAD |
+### Funded — internal (WPI) [VALIDATED — funded]
+| Year | Program | Role | Project |
+|---|---|---|---|
+| 2024 | Teaching Innovation Grant | PI | [[gpthermo]] |
+| 2023 | Teaching Innovation Grant | PI (with a Co-PI) | Lab on Cart flow-viz ([[2024-ebadi-asee]]) |
+| 2025 | Summer Sandbox Grant | PI | March CADness (CAD competition, 30+ students) |
+| 2025 | Women's Impact Network (WIN) | PI | Wings of Opportunity (women in SAE) |
+| 2024 | EMPOwER Grant | PI | OER for CAD |
 
 Funded external grants: **none to date.**
 
-### Pending proposals [ASPIRATIONAL] (amounts omitted)
+### Pending proposals [ASPIRATIONAL]
 | Agency | Role | Theme |
 |---|---|---|
 | NASA | Co-PI | Aerospace skills/technologies learning pathways (BLAST) |
 | NSF | Co-PI | Hand-drawn works in integrated science & engineering (SKEtCHWISE) |
 
-### Submitted but not funded — record, not failures (amounts omitted)
+### Submitted but not funded — record, not failures
 | Agency | Role | Theme |
 |---|---|---|
 | NSF | PI | Custom AI model + validation tool for thermo-fluid education |
@@ -92,8 +92,8 @@ Funded external grants: **none to date.**
 | WPI Teaching Innovation / PBL Fellows | PI | Continuous Qualifying Project (CQP) pilot |
 
 [CLAIM] The clearest through-line: after two unfunded NSF proposals on accessible
-thermodynamics, Reza secured the $16,500 internal grant and **built [[gpthermo]]
-himself** — which then informed [[studyguideai]] and was presented at ASEE 2025.
+thermodynamics, Reza secured an internal grant and **built [[gpthermo]] himself** — which
+then informed [[studyguideai]] and was presented at ASEE 2025.
 
 ## Recognitions
 - [[morgan-worcester-instructorship]] — student-voted teaching award (2026–2029). [VALIDATED]

@@ -83,17 +83,15 @@ Publication rules in CLAUDE.md). [REVIEW] confirm this list is limited to public
 co-authorship facts.
 
 ## Grants, programs & competitions
-Funded internal grants list their amount (publishable). External/pending proposals are
-recorded WITHOUT dollar amounts by policy (see CLAUDE.md publication rules); list them by
-agency, role, and status only.
-- **MTLC grants** — internal WPI grants: $16.5k (GPThermo), $13k (flow-visualization),
-  $5.6k (March CADness).
-- **EMPOwER grant** — $3k from the WPI OER team; funded a public CAD OER library.
-- **WIN grant** — $3k; "Wings of Opportunity: Advancing Women Engineers Through
-  International SAE Competition Experience".
+Dollar amounts are omitted for all grants and proposals by policy; list them by program,
+role, and status only.
+- **MTLC grants** — internal WPI grants funding GPThermo and the flow-visualization setup.
+- **EMPOwER grant** — from the WPI OER team; funded a public CAD OER library.
+- **WIN grant** — "Wings of Opportunity: Advancing Women Engineers Through International
+  SAE Competition Experience".
 - **March CADness** — bracket-style CAD competition (30+ students, March 2024); funded by
-  a WPI **Summer Sandbox Grant** ($5,600). *(The candidate statement attributes it to
-  MTLC; the CV specifies the Summer Sandbox Grant.)*
+  a WPI **Summer Sandbox Grant**. *(The candidate statement attributes it to MTLC; the CV
+  specifies the Summer Sandbox Grant.)*
 - **CQP (Continuous Qualifying Project)** — a scaffolded, cross-course undergraduate
   project concept Reza has proposed (unfunded internal proposals to date). [ASPIRATIONAL]
 - **Maruzzi Award** — Romeo L. Maruzzi Young Faculty Award of Innovation in Undergraduate
@@ -159,7 +157,7 @@ agency, role, and status only.
   GPT-4o system (tool + retrieval augmentation) with PyroMat-backed calculations for 20+
   working fluids. Adoption: 19 verified users (as of the candidate statement). Accuracy:
   95% on a 20-question benchmark vs. 15–25% for public LLMs ([[gpthermo-accuracy]]). Built
-  on a $16.5k MTLC grant; maintained post-grant.
+  on an MTLC grant; maintained post-grant.
 - **StudyGuideAI** ([studyguideai.app](https://studyguideai.app)) — student-facing platform: upload material →
   quizzes, summaries, flashcards. Adoption figure: 73 users (as of candidate statement).
 - **AI Pedagogy website** ([aipedagogy.wpi.edu](https://aipedagogy.wpi.edu)) — Reza's

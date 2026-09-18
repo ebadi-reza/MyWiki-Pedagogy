@@ -14,7 +14,7 @@ Append-only record of ingests, queries, and lints.
 ## 2026-09-18 — INGEST: Candidate Statement (`raw/my-portfolio/RE_Candidate_Statement.pdf`, 7 pp)
 First source ingested; the spine document. Discussed takeaways with Reza; settled three
 standing publication-policy calls (student quotes allowed anonymized & sparingly;
-external/pending grant $ amounts omitted; collaborator names in glossary only, roles in
+external/pending grant dollar amounts omitted; collaborator names in glossary only, roles in
 prose).
 
 **Pages created**
@@ -99,7 +99,8 @@ printing the specific low term-by-term numbers.
 
 **Confirmations resolved:** evals are a 5-pt scale (Q1 course / Q2 instructor); **CMSC =
 Consortium of Multiple Sclerosis Centers**; **stEm PEER Academy = 2025–2026** (Silevitch/
-Duggan Center); funded internal grants total **$41,140**; funded external = none.
+Duggan Center); several funded internal grants; funded external = none. *(Grant dollar
+amounts later removed from the wiki by policy — 2026-09-18.)*
 
 **Pages created**
 - Sources: `sources/cv.md`; paper stubs `2023-ebadi-asee`, `2024-ebadi-asee` (flow-viz),
@@ -170,15 +171,15 @@ rig is built & qualitatively validated but has **no efficacy data yet** (SALG as
 planned), so I tagged the build [VALIDATED] and the learning benefit [ASPIRATIONAL] to
 avoid overclaiming.
 
-**Pages:** filled `sources/2024-ebadi-asee.md` (stub → full: motivation, the **$251**
+**Pages:** filled `sources/2024-ebadi-asee.md` (stub → full: motivation, the **\$251**
 per-unit cost table, MATLAB/PIVlab app, WIP status, sample activities); enriched
-`threads/accessibility` (portable PIV + $251 + WIP caveat); glossary (PIV, PIVlab, SALG);
+`threads/accessibility` (portable PIV + \$251 + WIP caveat); glossary (PIV, PIVlab, SALG);
 index.
 
 **Stripped:** two undergraduate students acknowledged by name → credited generically.
 **Discrepancy noted (not resolved):** candidate statement says "four undergraduates" on the
 grant; the paper acknowledges two. **Chose not to create a separate evidence page** for the
-$251 figure (WIP, no efficacy yet) — it lives on the source + accessibility pages; promote
+\$251 figure (WIP, no efficacy yet) — it lives on the source + accessibility pages; promote
 later if learning-gains data arrives.
 
 ## 2026-09-18 — INGEST: 2024 IEC "Combating Exam Stress" (`raw/my-work/2024_Ebadi_IEC.pdf`, 1-page poster)
@@ -371,7 +372,7 @@ refreshed the overview's stale "refine as sources are ingested" caveat and its d
 **Numbers removed (Reza's instruction — unreliable figures):** the unsourced **h-index**
 (glossary + scholarship thread), the disputed **consultation count** (source + evidence
 pages), and the contradicted **"four undergraduates"** on Lab-on-Cart (→ "undergraduate
-students"). Well-sourced, dated figures (survey %, 95% benchmark, $ amounts, adoption "as
+students"). Well-sourced, dated figures (survey %, 95% benchmark, dollar amounts, adoption "as
 of the candidate statement") were kept.
 
 **AI Pedagogy website:** featured [aipedagogy.wpi.edu](https://aipedagogy.wpi.edu) as a

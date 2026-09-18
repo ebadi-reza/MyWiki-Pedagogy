@@ -29,15 +29,15 @@ Fluids, Eng. Exp., or MME/Aerospace MQPs for 2022–23). Serves [[accessibility]
 — "Lab on Cart" — designed to be **replicated in quantity** so each small student team
 gets its own, enabling simultaneous or customizable experiments.
 
-**Cost — total ≈ $251 per unit** (vs. tens of thousands for a tunnel):
+**Cost — total ≈ \$251 per unit** (vs. tens of thousands for a tunnel):
 
 | Component | Cost |
 |---|---|
-| 10-gallon fish tank | $25 |
-| Small cart | $81 |
-| USB camera | $77 |
-| Hunting laser diode + mounts | $25 |
-| Cylindrical lens | $43 |
+| 10-gallon fish tank | \$25 |
+| Small cart | \$81 |
+| USB camera | \$77 |
+| Hunting laser diode + mounts | \$25 |
+| Cylindrical lens | \$43 |
 
 A companion **MATLAB app** (built on the open-source **PIVlab** library) runs the
 workflow in four stages — Calibration, Image Pre-processing, PIV Settings,
@@ -54,7 +54,7 @@ yet, so the accessibility benefit is a design goal, not a measured outcome.
 
 ## Intended use
 Fluid Mechanics (ES 3004), Engineering Experimentation (ME 3902), MQPs, and outreach.
-Funded by a **$13,040** MTLC Teaching Innovation Grant (see [[scholarship-and-dissemination]]).
+Funded by an **MTLC Teaching Innovation Grant** (see [[scholarship-and-dissemination]]).
 
 ## Threads & pillars
 [[accessibility]] (low-cost lab hardware), [[self-sufficiency]] (students run and

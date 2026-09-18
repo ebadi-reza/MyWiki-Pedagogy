@@ -39,17 +39,17 @@ are not pushed toward unverified or erroneous free resources. *(Sources:
   note-taking. [CLAIM] Student feedback reported as overwhelmingly positive *(aggregate;
   see Teaching Portfolio when ingested)*.
 - **Open Educational Resources (OER)** — a public CAD resource library shared with the
-  WPI library, funded by a $3k EMPOwER grant from the WPI OER team. [VALIDATED — funded]
+  WPI library, funded by an EMPOwER grant from the WPI OER team. [VALIDATED — funded]
 - **Cost-effective tool substitutes** — PMKS+ (an open-source, in-house mechanism
   simulator) replacing a former commercial package in Kinematics; promotion of
   web-based CAD (Onshape, Fusion 360) as alternatives to a cumbersome SolidWorks
   deployment. [CLAIM]
 - **Low-cost lab hardware** — an affordable flow-visualization setup for Fluid Mechanics
-  (ES 3004), Eng. Exp., and MQPs, developed on a $13k MTLC grant with a WPI colleague and
+  (ES 3004), Eng. Exp., and MQPs, developed on an MTLC grant with a WPI colleague and
   undergraduate students. [VALIDATED — funded] It addressed a concrete gap Reza identified:
   there were **no flow-visualization experiments** in Fluids, Eng. Exp., or any listed
   MME/Aerospace MQPs for 2022–23. The design is a portable Particle Image Velocimetry
-  (PIV) rig costing **≈$251 per unit** (vs. tens of thousands for a wind/water tunnel),
+  (PIV) rig costing **≈\$251 per unit** (vs. tens of thousands for a wind/water tunnel),
   paired with an open-source MATLAB/PIVlab app. [VALIDATED — built] It is a Work in
   Progress: efficacy is not yet measured (a SALG-survey assessment is planned
   [ASPIRATIONAL]). See [[2024-ebadi-asee]].

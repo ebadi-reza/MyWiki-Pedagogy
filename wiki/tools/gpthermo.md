@@ -34,7 +34,7 @@ See [[2025-brown-asee]].
 
 [CLAIM] It grew out of two **unfunded** external NSF proposals on accessible
 thermodynamics education (see [[scholarship-and-dissemination]]); rather than shelve the
-idea, Reza secured a **$16.5k MTLC grant** and built the platform himself, and has
+idea, Reza secured an **MTLC grant** and built the platform himself, and has
 **maintained it after the grant ended**.
 
 ## Accuracy
