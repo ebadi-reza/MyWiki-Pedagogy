@@ -63,6 +63,15 @@ jobs:
           sed -i 's|pageTitle: ".*"|pageTitle: "Reza Ebadi · Engineering Education \& Pedagogy"|' quartz.config.ts
           echo "----- resulting config (title/baseUrl) -----"
           grep -E 'pageTitle|baseUrl' quartz.config.ts
+          # Custom styling: a little vertical breathing room between sidebar entries
+          # (left Explorer, right Table of Contents and Backlinks).
+          {
+            echo ''
+            echo '/* custom: spacing between sidebar entries */'
+            echo '.explorer-ul li { margin-block: 0.32rem; }'
+            echo '.toc-content li { margin-block: 0.32rem; }'
+            echo '.backlinks li { margin-block: 0.32rem; }'
+          } >> styles/custom.scss
 
       - name: Set up Node
         uses: actions/setup-node@v4

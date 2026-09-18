@@ -29,7 +29,6 @@ no third-party names or letters, no student data, no dossier framing. The privat
 | `tools/` | Built artifacts (GPThermo, StudyGuideAI, …) |
 | `sources/` | One page per ingested paper / poster / document |
 | `evidence/` | Reusable, publishable evidence items (aggregate results, metrics, awards) |
-| `analyses/` | Comparisons and syntheses filed back from questions |
 
 ## Viewing
 

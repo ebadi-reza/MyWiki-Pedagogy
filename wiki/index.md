@@ -74,6 +74,3 @@ answering a query, then drill into relevant pages.
 - [[stem-peer-academy]] — admission to the NSF Engineering PLUS Alliance stEm PEER Academy
 - [[gpthermo-accuracy]] — 95% vs 15–25% accuracy benchmark for GPThermo
 - [[ai-pedagogy-inaugural-year]] — AI Pedagogy Specialist reach (155/107 surveys, 69 reached, 43 policies)
-
-## Analyses
-*(empty — syntheses filed back from queries)*
