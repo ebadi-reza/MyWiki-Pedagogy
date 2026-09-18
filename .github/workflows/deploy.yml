@@ -1,0 +1,91 @@
+name: Deploy wiki to GitHub Pages (Quartz)
+
+# Builds the PUBLIC wiki/ folder into a static site with Quartz and deploys it to
+# GitHub Pages. Quartz is fetched fresh on the runner, so nothing extra is committed
+# to this repo. raw/ is git-ignored and never reaches the repo, so it can never be
+# published. Only wiki/ is copied into the site.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch: # lets you trigger a rebuild manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: Fetch Quartz (v4)
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - name: Load wiki/ as Quartz content
+        run: |
+          set -euo pipefail
+          if [ -z "$(ls -A repo/wiki/*.md 2>/dev/null)" ]; then
+            echo "::error::repo/wiki has no markdown — aborting so we don't publish an empty site."
+            exit 1
+          fi
+          rm -rf quartz/content
+          mkdir -p quartz/content
+          cp -R repo/wiki/. quartz/content/
+          # Safety: the private sources must never be present in the build input.
+          if [ -e quartz/content/../raw ] || ls quartz/content 2>/dev/null | grep -qi '^raw$'; then
+            echo "::error::raw/ detected in build input — aborting."
+            exit 1
+          fi
+
+      - name: Point Quartz at this GitHub Pages URL
+        run: |
+          cd quartz
+          # Project pages are served from a sub-path, so baseUrl needs the repo name.
+          sed -i 's|baseUrl: ".*"|baseUrl: "ebadi-reza.github.io/MyWiki-Pedagogy"|' quartz.config.ts
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build site
+        run: |
+          cd quartz
+          npm ci
+          npx quartz build
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

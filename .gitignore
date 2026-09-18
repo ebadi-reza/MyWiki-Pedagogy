@@ -1,0 +1,31 @@
+# ============================================================================
+# PRIVACY BOUNDARY — the wall that keeps private sources off the public web.
+# raw/ holds private source documents (candidate statement, teaching portfolio,
+# CV, letters, student data, evaluations). It is reference material only and
+# must NEVER be committed or published.
+# This rule MUST exist before the first `git add`.
+# Verify after `git add`:  git ls-files raw/   ->  (must print nothing)
+# ============================================================================
+raw/
+/raw
+**/raw/
+
+# Obsidian per-vault settings / workspace state (not needed on the public site)
+.obsidian/
+
+# Node / Quartz build artifacts (in case anything is ever built locally)
+node_modules/
+public/
+.quartz-cache/
+quartz/
+*.log
+
+# Secrets / environment
+.env
+.env.*
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
